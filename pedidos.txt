@@ -1,0 +1,3 @@
+                                                -----PEDIDOS REGISTRADOS----
+
+{'pizzas': ['calabresa'], 'valor': 54.5, 'cliente': {'nome': 'thomas', 'telefone': '916162004', 'email': 'thomaspirescorreia@gmail.com', 'senha': '25179616', 'bairro': '', 'rua': '', 'numero': 0, 'complemento': ''}, 'status': 0}

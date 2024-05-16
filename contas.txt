@@ -1,0 +1,3 @@
+                                                        --CONTAS-REGISTRADAS-NO APLICATIVO--
+
+{'nome': 'thomas', 'telefone': '916162004', 'email': 'thomaspirescorreia@gmail.com', 'senha': '25179616', 'bairro': '', 'rua': '', 'numero': 0, 'complemento': ''}

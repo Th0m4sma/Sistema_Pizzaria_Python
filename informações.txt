@@ -1,0 +1,3 @@
+--INFORMAÇÕES DO RESTAURANTE--
+
+senha = 20042517

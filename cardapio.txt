@@ -1,0 +1,15 @@
+                                            --CARDAPIO-DA-PIZZARIA--
+
+{'sabor': 'chocolate com morango', 'valor': 34.5, 'descricao': 'pizza de chocolate com morango picado.', 'tipo': 'doce'}
+{'sabor': 'calabresa', 'valor': 54.5, 'descricao': 'mussarela, linguica calabresa e cebola.', 'tipo': 'salgada'}
+{'sabor': 'quatro queijos', 'valor': 58.0, 'descricao': 'mussarela, provolone, parmesão e catupiry', 'tipo': 'salgada'}
+{'sabor': 'portuguesa', 'valor': 57.5, 'descricao': 'ovo, palmito, pimentao, presunto e cebola.', 'tipo': 'salgada'}
+{'sabor': 'banana com canela', 'valor': 38.9, 'descricao': 'banana caramelizada, leite condensado e canela.', 'tipo': 'doce'}
+{'sabor': 'marguerita', 'valor': 62.5, 'descricao': 'mussarela, rodelas de tomate e manjericao.', 'tipo': 'salgada'}
+{'sabor': 'brocolis', 'valor': 58.9, 'descricao': 'brocolis refogado coberto com mussarela e alho.', 'tipo': 'salgada'}
+{'sabor': 'palmito', 'valor': 56.9, 'descricao': 'mussarela, palmito e oregano.', 'tipo': 'salgada'}
+{'sabor': 'toscana', 'valor': 62.9, 'descricao': 'linguica calabresa bacon e catupiry.', 'tipo': 'salgada'}
+{'sabor': 'gorgonzola', 'valor': 58.9, 'descricao': 'gorgonzola, tomate, orégano e azeitonas.', 'tipo': 'salgada'}
+{'sabor': 'prestigio', 'valor': 42.0, 'descricao': 'chocolate, coco ralado e leite condensado.', 'tipo': 'doce'}
+{'sabor': 'Nutella com Morango', 'valor': 36.9, 'descricao': 'nutella e morango.', 'tipo': 'doce'}
+{'sabor': 'frango com catupiry', 'valor': 60.5, 'descricao': 'molho de tomate, mussarela, frango e catupiry.', 'tipo': 'salgada'}
