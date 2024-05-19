@@ -23,11 +23,10 @@ def cliente_p():
                     os.system('cls')
                     menuSecundario_cliente()
                     op2 = int(input("Digite a opção desejada: "))
-                    
+
                     if op2 == 1:
                         os.system('cls')
                         cardapio()
-                        pass
                     elif op2 == 2:
                         fazer_pedido(usuario)
                     elif op2 == 3:
