@@ -23,7 +23,7 @@ def cliente_p():
                     os.system('cls')
                     menuSecundario_cliente()
                     op2 = int(input("Digite a opção desejada: "))
-
+                    
                     if op2 == 1:
                         os.system('cls')
                         cardapio()

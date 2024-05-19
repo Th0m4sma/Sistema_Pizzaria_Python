@@ -270,7 +270,7 @@ def alterar_conta(usuario):
         
         if op4 == 1:
             os.system('cls')
-            usu['nome'] = input("Digite o novo usuário: ")
+            usu['nome'] = input("Digite o novo nome: ")
             lista[pos] = str(usu)
             sleep(2)
         elif op4 == 2:
@@ -352,6 +352,7 @@ def Acessar_Perfil(usuario):
             usuario = atualizando(usuario)
         elif opcao == 2:
             excluir_perfil(usuario,list(fazendo_backup()))
+            sair = True
         elif opcao == 3:
             sair = True
             sair_menu_cliente()
