@@ -30,7 +30,8 @@ def cliente_p():
                     elif op2 == 2:
                         fazer_pedido(usuario)
                     elif op2 == 3:
-                        pass
+                        os.system('cls')
+                        Ver_pedido(usuario)
                     elif op2 == 4:
                        Acessar_Perfil(usuario)
                        usuario = atualizando(usuario)

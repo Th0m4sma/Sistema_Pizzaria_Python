@@ -142,3 +142,23 @@ def sabor_inválido():
     print("]|[==-----------------------------------------==]|[")
     print("]|[==--------[-DIGITE UM SABOR VÁLIDA-]---------]|[")
     print("]|[=============================================]|[")
+
+def imprimindo_pedido(pedido):
+     print("]|[=============================================]|[")
+     print("]|[==---------------[-PEDIDO-]----------------==]|[")
+     print("]|[==-----------------------------------------==]|[")
+     print("==> Pizzas: ",end='')
+     for i in pedido['pizzas']:
+         print(i)
+     print("==> Valor: R$",pedido['valor'])
+     print("==> Status: ",end='')
+     if pedido['status']==0:
+         print('sendo preparado')
+     elif pedido['status'] == 1:
+         print("Saiu para entega")
+     print("]|[=============================================]|[")
+    
+def pedido_nao_encontrado():
+    print("]|[=============================================]|[")
+    print("]|[==---[-NÃO-FOI-REALIZADO-NENHUM-PEDIDO-]---==]|[")
+    print("]|[=============================================]|[")

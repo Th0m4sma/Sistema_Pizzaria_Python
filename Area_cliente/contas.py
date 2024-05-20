@@ -247,8 +247,6 @@ def excluir_perfil(usuario,lista):
     arquivo.close()
 
 
-
-#TERMINAR ESTA FUNÇÃO QUE ALTERA OS DADOS DE UMA CONTA
 def alterar_conta(usuario):
     lista = list(fazendo_backup())
     arquivo = open('contas.txt','w')
@@ -316,7 +314,12 @@ def alterar_conta(usuario):
                 usu['senha'] = senha
                 lista[pos] = str(usu)
         elif op4 == 5:
-            pass #inserir endereço
+            os.system('cls')
+            usu['bairro'] = input("Digite o nome do bairro: ")
+            usu['rua'] = input("Digite o nome da rua: ")
+            usu['numero'] = int(input("Digite o número: "))
+            usu['complemento'] = input("Digite um complemento: ")
+            lista[pos] = str(usu)
         else:
             alterado = True
     arquivo.writelines(lista)
@@ -389,6 +392,26 @@ def fazer_pedido(usuario):
         arquivo.write('\n')
     arquivo.close()
 
+def Ver_pedido(usuario):
+    arquivo = open('pedidos.txt','r')
+    lista = arquivo.readlines()
+    encontrado = False
+
+    for i in lista[2:]:
+        aux1 = eval(i)
+        aux2 = (aux1['cliente'])
+        if aux2['numero'] == usuario['numero']:
+            encontrado = True
+            break
+        
+    if encontrado:
+        imprimindo_pedido(aux1)
+    else:
+        pedido_nao_encontrado()
+    sleep(2)
+    arquivo.close()
+    
+    
 
 
 def valor_pizza(sabor):
