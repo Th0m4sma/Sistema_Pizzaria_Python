@@ -1,6 +1,6 @@
-# SISTEMA PIZZARIA EM PYTHONO 
+# SISTEMA PIZZARIA EM PYTHON
 
-Programa desenvolvido é um sistema para pizzaria que conta com dois menus principais: um voltado para o proprietário e outro para os clientes. Ele oferece diversas funcionalidades, como:
+O Programa desenvolvido é um sistema para pizzaria que conta com dois menus principais: um voltado para o proprietário e outro para os clientes. Ele oferece diversas funcionalidades, como:
 
 Para o proprietário:
 
